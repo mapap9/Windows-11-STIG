@@ -53,15 +53,30 @@ Authoritative STIG guidance and examples are sourced from:
 └── README.md
 ```
 
-## Example STIG Controls
+## STIG Controls
 
-| STIG ID        | Control Area       | Description                                          |
-| -------------- | ------------------ | ---------------------------------------------------- |
-| WN11-CC-000063 | Policy Enforcement | Windows 11 must be managed using GPO or approved MDM |
-| WN11-00-000005 | OS Configuration   | Systems must run Windows 11 Enterprise (64-bit)      |
-| V-253259       | Disk Encryption    | BitLocker must be enabled                            |
-| WN11-SO-000070 | Account Lockout    | Account lockout policies must be enforced            |
-
+| STIG ID | Category | Control Description |
+|--------|----------|---------------------|
+| WN11-CC-000063 | Configuration | Windows 11 must be configured to use Group Policy or approved MDM |
+| WN11-CC-000090 | Configuration | GPOs must be reprocessed even if they have not changed |
+| WN11-CC-000120 | Configuration | Insecure guest logons must be disabled |
+| WN11-SO-000005 | Security Options | Built-in Administrator account must be disabled |
+| WN11-SO-000020 | Security Options | Built-in Administrator account must be renamed |
+| WN11-SO-000025 | Security Options | Built-in Guest account must be disabled |
+| WN11-SO-000030 | Security Options | Built-in Guest account must be renamed |
+| WN11-SO-000070 | Security Options | Account lockout threshold must be configured |
+| WN11-SO-000075 | Security Options | Account lockout duration must be configured |
+| WN11-SO-000080 | Security Options | Account lockout reset time must be configured |
+| WN11-UR-000060 | User Rights | Create symbolic links must be restricted to Administrators |
+| WN11-UR-000080 | User Rights | Deny access to this computer from the network must be configured |
+| WN11-UR-000090 | User Rights | Deny log on locally must be configured |
+| WN11-UR-000100 | User Rights | Deny log on through Remote Desktop Services must be configured |
+| WN11-UR-000120 | User Rights | Load and unload device drivers must be restricted |
+| WN11-UR-000140 | User Rights | Modify firmware environment values must be restricted |
+| WN11-AU-000505 | Auditing | Audit Credential Validation (Success and Failure) must be enabled |
+| WN11-AU-000510 | Auditing | Audit Application Group Management must be enabled |
+| WN11-AU-000555 | Auditing | Audit Other Policy Change Events (Failure) must be enabled |
+| WN11-FW-000010 | Firewall | Windows Firewall must be enabled for all profiles |
 ## Applying STIGs Using Group Policy
 Download the Windows 11 STIG GPO package from DISA
 
