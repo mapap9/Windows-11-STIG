@@ -47,7 +47,6 @@ Authoritative STIG guidance and examples are sourced from:
 ├── docs/
 │   ├── STIG_OVERVIEW.md
 │   └── Windows11_STIG_controls.xlsx
-├── CONTRIBUTING.md
 └── README.md
 ```
 
