@@ -2,8 +2,6 @@
 
 This repository focuses on **remediating and hardening Windows 11 systems** using **DISA Security Technical Implementation Guides (STIGs)** with an emphasis on **Group Policy Object (GPO)**–based enforcement and automation.
 
-It is intended as a **reference and automation showcase** for security operations, compliance, and blue-team engineering roles.
-
 ---
 
 ## 🛡️ What is a DISA STIG?
