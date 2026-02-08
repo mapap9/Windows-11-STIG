@@ -75,7 +75,11 @@ Authoritative STIG guidance and examples are sourced from:
 | WN11-AU-000555 | Auditing | Audit Other Policy Change Events (Failure) must be enabled |
 | WN11-FW-000010 | Firewall | Windows Firewall must be enabled for all profiles |
 
+Before:
 ![Scan Result:](images/7.png)
+
+After:
+![After](images/28.png)
 
 ## Applying STIGs Using Group Policy
 Download the Windows 11 STIG GPO package from DISA
