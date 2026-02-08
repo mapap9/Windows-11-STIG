@@ -81,7 +81,7 @@ Before:
 After:
 ![After](images/28.png)
 
-## Applying STIGs Using Group Policy
+## Applying STIG Using Group Policy
 Download the Windows 11 STIG GPO package from DISA
 
 Open Group Policy Management Console (GPMC)
@@ -91,6 +91,8 @@ Import the STIG GPO into the domain
 Link the GPO to the appropriate Organizational Unit (OU)
 
 Some STIGs require additional ADMX templates (for example, SecGuide.admx) to be installed in the Group Policy Central Store before import.
+
+![Group Policy](images/20.png)
 
 ## Local Policy Enforcement (LGPO)
 For standalone or lab systems, Microsoft’s LGPO.exe can be used to apply STIG GPOs locally.
@@ -102,6 +104,8 @@ Backup existing local policy
 Apply STIG GPO locally
 
 ```.\LGPO.exe /g ".\Windows11-STIG-GPO"```
+
+![LGPO](images/17.png)
 
 ## Compliance Validation
 Compliance and validation can be performed using:
